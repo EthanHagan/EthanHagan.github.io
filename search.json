@@ -107,14 +107,14 @@
   {
     "objectID": "project.html",
     "href": "project.html",
-    "title": "DANL Project",
+    "title": "Project - Data Analytics",
     "section": "",
-    "text": "About this project 👏"
+    "text": "About this project 💹\nIn this project we will cover relationships of different variables using the data collected from Motor Trend US magazine."
   },
   {
     "objectID": "project.html#summary-statistics",
     "href": "project.html#summary-statistics",
-    "title": "DANL Project",
+    "title": "Project - Data Analytics",
     "section": "1.1 Summary Statistics",
     "text": "1.1 Summary Statistics\n\n\n\n  \n\n\n\n1.1.1 Summary Statistics\n\nskim(mtcars) %&gt;% \n  select(-n_missing)\n\n\nData summary\n\n\nName\nmtcars\n\n\nNumber of rows\n32\n\n\nNumber of columns\n11\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\nnumeric\n11\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nmpg\n1\n20.09\n6.03\n10.40\n15.43\n19.20\n22.80\n33.90\n▃▇▅▁▂\n\n\ncyl\n1\n6.19\n1.79\n4.00\n4.00\n6.00\n8.00\n8.00\n▆▁▃▁▇\n\n\ndisp\n1\n230.72\n123.94\n71.10\n120.83\n196.30\n326.00\n472.00\n▇▃▃▃▂\n\n\nhp\n1\n146.69\n68.56\n52.00\n96.50\n123.00\n180.00\n335.00\n▇▇▆▃▁\n\n\ndrat\n1\n3.60\n0.53\n2.76\n3.08\n3.70\n3.92\n4.93\n▇▃▇▅▁\n\n\nwt\n1\n3.22\n0.98\n1.51\n2.58\n3.33\n3.61\n5.42\n▃▃▇▁▂\n\n\nqsec\n1\n17.85\n1.79\n14.50\n16.89\n17.71\n18.90\n22.90\n▃▇▇▂▁\n\n\nvs\n1\n0.44\n0.50\n0.00\n0.00\n0.00\n1.00\n1.00\n▇▁▁▁▆\n\n\nam\n1\n0.41\n0.50\n0.00\n0.00\n0.00\n1.00\n1.00\n▇▁▁▁▆\n\n\ngear\n1\n3.69\n0.74\n3.00\n3.00\n4.00\n4.00\n5.00\n▇▁▆▁▂\n\n\ncarb\n1\n2.81\n1.62\n1.00\n2.00\n2.00\n4.00\n8.00\n▇▂▅▁▁"
   },
@@ -135,36 +135,36 @@
   {
     "objectID": "project.html#introduction",
     "href": "project.html#introduction",
-    "title": "DANL Project",
+    "title": "Project - Data Analytics",
     "section": "",
-    "text": "About this project 👏"
+    "text": "About this project 💹\nIn this project we will cover relationships of different variables using the data collected from Motor Trend US magazine."
   },
   {
     "objectID": "project.html#explanation",
     "href": "project.html#explanation",
-    "title": "DANL Project",
+    "title": "Project - Data Analytics",
     "section": "2.1 Explanation",
-    "text": "2.1 Explanation\nThe provided R code utilizes the “ggplot2” library to generate a visually informative scatter plot, exploring the relationship between the weight of cars, their 1/4 mile times, and the number of cylinders in their engines. Each point on the scatter plot represents an individual car, positioned based on its weight (on the x-axis) and 1/4 mile time (on the y-axis). The color of each point is coded to represent the specific number of cylinders in the car’s engine, providing a visual categorization. The title of the plot is “Scatter Plot of Quarter Mile Time vs. Weight by Number of Cylinders,” highlighting the primary focus of the visualization. The x-axis is labeled “Weight (1000 lbs),” representing the weight of the cars, and the y-axis is labeled “Quarter Mile Time,” indicating the time it takes for a car to cover a quarter-mile distance. The legend, titled “Number of Cylinders,” assists in interpreting the color associations. This scatter plot offers a comprehensive view of how the weight of cars, their 1/4 mile times, and the number of cylinders interrelate, providing valuable insights into the performance characteristics of different engine configurations. Adjustments can be made to the code to suit specific preferences or analysis requirements."
+    "text": "2.1 Explanation\nThis scatter plot explores the relationship between the 1/4 mile times, and car names in the “mtcars” dataset. The x-axis is organized based on the 1/4 mile times, with car names reordered accordingly. Each point on the scatter plot is represented in blue, denoting a specific car, and its position along the x-axis corresponds to its 1/4 mile time. The Mercedes 230 has by far the slowest 1/4 mile time and the Ford Pantera L has the fastest with Maserati Bora being a close second."
   },
   {
     "objectID": "project.html#explanation-1",
     "href": "project.html#explanation-1",
-    "title": "DANL Project",
+    "title": "Project - Data Analytics",
     "section": "3.1 Explanation",
-    "text": "3.1 Explanation"
+    "text": "3.1 Explanation\nThis boxplot explores the relationship between the number of cylinders in car engines and their corresponding 1/4 mile times. Engines with 4 cylinders are filled with the color red, engines with 6 cylinders are filled with the color green, and engines with 8 cylinders are filled with the color blue. As you can see, the relationship between number of cylinders and 1/4 mile times show a negative linear distribution."
   },
   {
     "objectID": "project.html#explanation-2",
     "href": "project.html#explanation-2",
-    "title": "DANL Project",
+    "title": "Project - Data Analytics",
     "section": "4.1 Explanation",
-    "text": "4.1 Explanation"
+    "text": "4.1 Explanation\nThis scatter plot explores the relationship between car weight, 1/4 mile times, and the number of cylinders in their engines. It displays weight on the x-axis, 1/4 mile time on the y-axis, and uses point color to denote the number of cylinders (4, 6 and 8). On average, lower number of cylinders in the engine result in less weight and slower 1/4 mile time. The higher number of cylinders in the engine results in having a higher weight and faster 1/4 mile times."
   },
   {
     "objectID": "project.html#explanation-3",
     "href": "project.html#explanation-3",
-    "title": "DANL Project",
+    "title": "Project - Data Analytics",
     "section": "5.1 Explanation",
-    "text": "5.1 Explanation"
+    "text": "5.1 Explanation\nThis scatter plot explores the relationship between car horsepower, 1/4 mile times, and engine type. The x-axis represents horsepower, the y-axis represents 1/4 mile times, and point color distinguishes between V-shaped and Straight engines. Each point represents an individual car, providing understanding into how horsepower and engine type relate to acceleration performance. On average, V-shaped engines have a higher horsepower and faster 1/4 mile times, whereas Straight engine types have less horsepower and slower 1/4 mile times."
   }
 ]

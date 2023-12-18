@@ -12,7 +12,7 @@
 <meta name="author" content="Ryan">
 <meta name="author" content="Rachel">
 
-<title>Ethan Hagan - DANL Project</title>
+<title>Ethan Hagan - Project - Data Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -169,7 +169,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#explanation-3" id="toc-explanation-3" class="nav-link" data-scroll-target="#explanation-3"><span class="header-section-number">5.1</span> Explanation</a></li>
   </ul></li>
-  <li><a href="#visualization-5" id="toc-visualization-5" class="nav-link" data-scroll-target="#visualization-5"><span class="header-section-number">6</span> Visualization #5</a></li>
   </ul>
 </nav>
     </div>
@@ -178,8 +177,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">DANL Project</h1>
-<p class="subtitle lead">Data-Driven Mastery: Unlocking Business Potential</p>
+<h1 class="title">Project - Data Analytics</h1>
+<p class="subtitle lead">Data Visualization and Analysis of Motor Trend Cars</p>
 </div>
 
 
@@ -206,7 +205,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="introduction" class="level2" data-number="0.1">
 <h2 data-number="0.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">0.1</span> Introduction</h2>
-<p>About this project <span class="emoji" data-emoji="clap">👏</span></p>
+<p>About this project <span class="emoji" data-emoji="chart">💹</span></p>
+<p>In this project we will cover relationships of different variables using the data collected from Motor Trend US magazine.</p>
 </section>
 <section id="data" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Data</h1>
@@ -452,7 +452,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <section id="explanation" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="explanation"><span class="header-section-number">2.1</span> Explanation</h2>
-<p>The provided R code utilizes the “ggplot2” library to generate a visually informative scatter plot, exploring the relationship between the weight of cars, their 1/4 mile times, and the number of cylinders in their engines. Each point on the scatter plot represents an individual car, positioned based on its weight (on the x-axis) and 1/4 mile time (on the y-axis). The color of each point is coded to represent the specific number of cylinders in the car’s engine, providing a visual categorization. The title of the plot is “Scatter Plot of Quarter Mile Time vs.&nbsp;Weight by Number of Cylinders,” highlighting the primary focus of the visualization. The x-axis is labeled “Weight (1000 lbs),” representing the weight of the cars, and the y-axis is labeled “Quarter Mile Time,” indicating the time it takes for a car to cover a quarter-mile distance. The legend, titled “Number of Cylinders,” assists in interpreting the color associations. This scatter plot offers a comprehensive view of how the weight of cars, their 1/4 mile times, and the number of cylinders interrelate, providing valuable insights into the performance characteristics of different engine configurations. Adjustments can be made to the code to suit specific preferences or analysis requirements.</p>
+<p>This scatter plot explores the relationship between the 1/4 mile times, and car names in the “mtcars” dataset. The x-axis is organized based on the 1/4 mile times, with car names reordered accordingly. Each point on the scatter plot is represented in blue, denoting a specific car, and its position along the x-axis corresponds to its 1/4 mile time. The Mercedes 230 has by far the slowest 1/4 mile time and the Ford Pantera L has the fastest with Maserati Bora being a close second.</p>
 </section>
 </section>
 <section id="visualization-2" class="level1" data-number="3">
@@ -473,6 +473,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <section id="explanation-1" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="explanation-1"><span class="header-section-number">3.1</span> Explanation</h2>
+<p>This boxplot explores the relationship between the number of cylinders in car engines and their corresponding 1/4 mile times. Engines with 4 cylinders are filled with the color red, engines with 6 cylinders are filled with the color green, and engines with 8 cylinders are filled with the color blue. As you can see, the relationship between number of cylinders and 1/4 mile times show a negative linear distribution.</p>
 </section>
 </section>
 <section id="visualization-3" class="level1" data-number="4">
@@ -492,6 +493,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <section id="explanation-2" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="explanation-2"><span class="header-section-number">4.1</span> Explanation</h2>
+<p>This scatter plot explores the relationship between car weight, 1/4 mile times, and the number of cylinders in their engines. It displays weight on the x-axis, 1/4 mile time on the y-axis, and uses point color to denote the number of cylinders (4, 6 and 8). On average, lower number of cylinders in the engine result in less weight and slower 1/4 mile time. The higher number of cylinders in the engine results in having a higher weight and faster 1/4 mile times.</p>
 </section>
 </section>
 <section id="visualization-4" class="level1" data-number="5">
@@ -512,13 +514,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <section id="explanation-3" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="explanation-3"><span class="header-section-number">5.1</span> Explanation</h2>
-</section>
-</section>
-<section id="visualization-5" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Visualization #5</h1>
-<p>ggplot(data = mtcars, ) +</p>
+<p>This scatter plot explores the relationship between car horsepower, 1/4 mile times, and engine type. The x-axis represents horsepower, the y-axis represents 1/4 mile times, and point color distinguishes between V-shaped and Straight engines. Each point represents an individual car, providing understanding into how horsepower and engine type relate to acceleration performance. On average, V-shaped engines have a higher horsepower and faster 1/4 mile times, whereas Straight engine types have less horsepower and slower 1/4 mile times.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

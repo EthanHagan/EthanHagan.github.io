@@ -1,6 +1,6 @@
 ---
-title: DANL Project
-subtitle: "Data-Driven Mastery: Unlocking Business Potential"
+title: Project - Data Analytics
+subtitle: "Data Visualization and Analysis of Motor Trend Cars"
 author: 
   - Ethan
   - Dylan
@@ -47,8 +47,9 @@ theme_set(theme_ipsum()+
 
 ## Introduction
 
-About this project :clap:
+About this project :chart:
 
+In this project we will cover relationships of different variables using the data collected from Motor Trend US magazine. 
 
 # Data
 
@@ -90,8 +91,7 @@ ggplot(mtcars, aes(x = reorder(car_models, -qsec), y = qsec)) +
 ```
 ## Explanation
 
-The provided R code utilizes the "ggplot2" library to generate a visually informative scatter plot, exploring the relationship between the weight of cars, their 1/4 mile times, and the number of cylinders in their engines. Each point on the scatter plot represents an individual car, positioned based on its weight (on the x-axis) and 1/4 mile time (on the y-axis). The color of each point is coded to represent the specific number of cylinders in the car's engine, providing a visual categorization. The title of the plot is "Scatter Plot of Quarter Mile Time vs. Weight by Number of Cylinders," highlighting the primary focus of the visualization. The x-axis is labeled "Weight (1000 lbs)," representing the weight of the cars, and the y-axis is labeled "Quarter Mile Time," indicating the time it takes for a car to cover a quarter-mile distance. The legend, titled "Number of Cylinders," assists in interpreting the color associations. This scatter plot offers a comprehensive view of how the weight of cars, their 1/4 mile times, and the number of cylinders interrelate, providing valuable insights into the performance characteristics of different engine configurations. Adjustments can be made to the code to suit specific preferences or analysis requirements.
-
+This scatter plot explores the relationship between the 1/4 mile times, and car names in the "mtcars" dataset. The x-axis is organized based on the 1/4 mile times, with car names reordered accordingly. Each point on the scatter plot is represented in blue, denoting a specific car, and its position along the x-axis corresponds to its 1/4 mile time. The Mercedes 230 has by far the slowest 1/4 mile time and the Ford Pantera L has the fastest with Maserati Bora being a close second. 
 
 # Visualization #2
 ```{r} 
@@ -108,6 +108,7 @@ ggplot(mtcars, aes(x = factor(cyl), y = qsec, fill = factor(cyl))) +
 ```
 ## Explanation 
 
+This boxplot explores the relationship between the number of cylinders in car engines and their corresponding 1/4 mile times. Engines with 4 cylinders are filled with the color red, engines with 6 cylinders are filled with the color green, and engines with 8 cylinders are filled with the color blue. As you can see, the relationship between number of cylinders and 1/4 mile times show a negative linear distribution.
 
 # Visualization #3
 ```{r}
@@ -124,7 +125,7 @@ ggplot(mtcars, aes(x = wt, y = qsec, color = cyl)) +
 
 ## Explanation
 
-
+This scatter plot explores the relationship between car weight, 1/4 mile times, and the number of cylinders in their engines. It displays weight on the x-axis, 1/4 mile time on the y-axis, and uses point color to denote the number of cylinders (4, 6 and 8). On average, lower number of cylinders in the engine result in less weight and slower 1/4 mile time. The higher number of cylinders in the engine results in having a higher weight and faster 1/4 mile times.
 
 # Visualization #4
 ```{r}
@@ -142,12 +143,4 @@ ggplot(mtcars, aes(x = hp, y = qsec, color = factor(vs))) +
 
 ## Explanation
 
-
-
-
-
-# Visualization #5
-```{r}
-ggplot(data = mtcars,
-       ) +
-  
+This scatter plot explores the relationship between car horsepower, 1/4 mile times, and engine type. The x-axis represents horsepower, the y-axis represents 1/4 mile times, and point color distinguishes between V-shaped and Straight engines. Each point represents an individual car, providing understanding into how horsepower and engine type relate to acceleration performance. On average, V-shaped engines have a higher horsepower and faster 1/4 mile times, whereas Straight engine types have less horsepower and slower 1/4 mile times.
