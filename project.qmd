@@ -47,7 +47,7 @@ theme_set(theme_ipsum()+
 
 ## Introduction
 
-About this project :chart:
+About this project :car:
 
 In this project we will cover relationships of different variables using the data collected from Motor Trend US magazine. 
 

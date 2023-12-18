@@ -6,5 +6,7 @@
 
 /* to fix the width of body and navbar with invisible scrollbar */
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 1px;
 }
+
+$body-bg: dark blue

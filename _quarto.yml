@@ -16,11 +16,11 @@ website:
 
 format:
   html:
-    theme: 
-      light: flatly
+    theme:
+      light: cerulean
       dark: darkly
     mainfont: system-ui; 
-    highlight-style: atom-one
+    highlight-style: pygments
     css: styles.css
     toc: false
     include-after-body: target_blank.html
