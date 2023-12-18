@@ -15,7 +15,7 @@ about:
       href: https://github.com/EthanHagan
     - icon: file-earmark-pdf
       text: Resume
-      href: https://github.com/EthanHagan/Hagan_Ethan_Resume.pdf
+      href: EthanHagan.github.io/Hagan_Ethan_Resume.pdf
     - icon: mailbox
       text: Email
       href: mailto:eh26@geneseo.edu
